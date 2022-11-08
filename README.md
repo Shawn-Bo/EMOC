@@ -44,9 +44,9 @@ EMOC：基于Bert的微博评论极性分类
 ## 三、实现思路
 使用预训练语言模型Bert及bert-base-chinese权重，在句向量前加一个分类网络进行训练。
 
-### 四、实验结果
+## 四、实验结果
 f1值达到了0.85.
 
-### 五、复现方式
+## 五、复现方式
 python main.py
 python predict_homework.py

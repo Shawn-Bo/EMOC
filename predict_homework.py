@@ -41,6 +41,6 @@ for json_item in test_json:
 
 # 保存了保存了
 label2id = {"neutral": 0, "positive": 1, "negative": 2}
-# with open("1190301419-樊宣伯.csv", "w") as f:
-#     for id, sentence_label in zip(ids, sentence_labels):
-#         f.write(f"{id},{label2id[sentence_label]}\n")
+with open("answer.csv", "w") as f:
+    for id, sentence_label in zip(ids, sentence_labels):
+        f.write(f"{id},{label2id[sentence_label]}\n")
